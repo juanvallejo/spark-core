@@ -244,7 +244,9 @@ function claim(deviceId) {
 function init(device) {
 
 	// turn on leds
-	device.callFunction('led', 'off', function(err, data) {
+	device.callFunction('toggleLED', 'both', function(err, data) {
+
+		console.log('callback function');
 
 		if(err) {
 			return console.log('An error occurred executing led function -> ' + err.toString());
