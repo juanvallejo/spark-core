@@ -1,0 +1,19 @@
+{
+  "name": "ardurfid",
+  "version": "1.0.0",
+  "description": "rfid-arduino-receiver",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "arduino",
+    "usb",
+    "serial"
+  ],
+  "author": "juanvallejo",
+  "license": "MIT",
+  "devDependencies": {
+    "particle-cli": "^1.5.16"
+  }
+}
